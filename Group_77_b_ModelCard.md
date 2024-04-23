@@ -23,20 +23,12 @@ This is a classification model that was trained to
 
 <!-- Provide a longer summary of what this model is. -->
 
-This model is a hybrid neural network tailored for text processing, integrating both convolutional and recurrent layers. It starts with an Embedding layer, which maps textual input into a higher-dimensional vector space, with the size of this space being a tunable hyperparameter varying between 100 and 200. This is followed by one to three Conv1D layers, each configurable in terms of the number of filters and kernel size, to capture spatial hierarchies in data. The convolutional layers help in extracting salient features from the embedded text, maintaining the temporal sequence which is crucial for any text-related tasks. The inclusion of a Bidirectional LSTM layer further enhances the model's ability to capture context from both past and future states, making it particularly effective for complex language understanding tasks like sentiment analysis or document classification. The model concludes with a GlobalMaxPooling1D layer to reduce dimensionality and a dense network topology that includes dropout for regularization, culminating in a final dense layer with softmax activation designed to output probabilities for two classes. This architecture is optimized using a choice of three different optimizers—Adam, RMSprop, or SGD—each with tunable learning rates, ensuring robust learning across various textual datasets.This model is trained and validated on about 23k pieces of evidence and claims
+This model is a hybrid neural network tailored for text processing, integrating both convolutional and recurrent layers. It starts with an Embedding layer, which maps textual input into a higher-dimensional vector space, with the size of this space being a tunable hyperparameter varying between 100 and 200. This is followed by one to three Conv1D layers, each configurable in terms of the number of filters and kernel size, to capture spatial hierarchies in data. The convolutional layers help in extracting salient features from the embedded text, maintaining the temporal sequence which is crucial for any text-related tasks. The inclusion of a Bidirectional LSTM layer further enhances the model's ability to capture context from both past and future states, making it particularly effective for complex language understanding tasks like sentiment analysis or document classification. The model concludes with a GlobalMaxPooling1D layer to reduce dimensionality and a dense network topology that includes dropout for regularization, culminating in a final dense layer with softmax activation designed to output probabilities for two classes. This architecture is optimized using a choice of three different optimizers—Adam, RMSprop, or SGD—each with tunable learning rates, ensuring robust learning across various textual datasets. This model is trained and validated on about 23k pieces of evidence and claims
 
 - **Developed by:** Saksham Goel Kushagra Srivastava
 - **Language(s):** English
 - **Model type:** Supervised
 - **Model architecture:** Multimodal
-- **Finetuned from model [optional]:** [More Information Needed]
-
-### Model Resources
-
-<!-- Provide links where applicable. -->
-
-- **Repository:** [More Information Needed]
-- **Paper or documentation:** [More Information Needed]
 
 ## Training Details
 
