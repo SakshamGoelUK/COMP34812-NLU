@@ -24,9 +24,10 @@ Both these repositories were used to understand how to write the code to tune Ro
 
 #### Location of Fine-Tuned RoBERTa model: https://drive.google.com/drive/folders/17FtIWoRF8fjc0v9xHZGpzN2T1Fg4_UVJ?usp=sharing
 
+Download the folder at this link, and follow the steps below.
 To run the model and make predictions, ensure that you have the necessary paths configured for your environment:
 
-1. Set `model_path` to the directory where the model and tokenizer are saved. If you're using a cloud storage service like OneDrive, adjust the path accordingly.
+1. Set `model_path` to the directory where the model and tokenizer are saved. (The model folder downloaded from the link above).
 2. The `predict` function takes two strings - a claim and evidence - and outputs a binary prediction. You can use this function if you want to test a specific example and see the output.
 3. To predict on a new CSV input file, set `link` to the path of your CSV file. The CSV should contain two columns: `Claim` and `Evidence`. The output will be a new CSV file with the predictions, with one column `prediction`.
 4. Set `out` to the desired output location.
