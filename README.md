@@ -22,7 +22,7 @@ These papers were referenced to gauge the performance of Bi-LSTM models in tasks
 ### Notebooks Explanation
 * [Bi_LSTM.ipynb](https://github.com/SakshamGoelUK/COMP34812-NLU/blob/main/Bi_LSTM.ipynb): This is the main notebook for the Bi-LSTM model. This includes the preprocessing, model hyperparameter selection,training , and evaluation on the validation set.
 * [Bi_LSTM_Demo_Code.ipynb](https://github.com/SakshamGoelUK/COMP34812-NLU/blob/main/Bi_LSTM_Demo_Code.ipynb): This is the demo code that can be used to test the model, using csv inputs or individual sentence inputs. This was used to generate the test dataset predictions
-
+* [**Bi_LSTM_evaluation_code.ipynb**](https://github.com/SakshamGoelUK/COMP34812-NLU/blob/main/Bi_LSTM_evaluation_code.ipynb): This is the evaluation notebook that was used to test the performance of the Bi-LSTM model. This involved calculating the accuracy,precision,recall,f1-score as well as visualising data such as by using a confusion matrix
 ### Running the Demo Code
 
 The demo code already sets up the file paths to the Bi-LSTM model, the trained tokenizer and the max sequence length for a **Google Colab** environment.To use an alternate environment, utilise the links given to below to download the necessary files
