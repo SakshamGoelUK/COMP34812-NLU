@@ -79,6 +79,7 @@ Both these repositories were used to understand how to write the code to tune Ro
 
 - [**RoBERTa_tuning.ipynb**](https://github.com/SakshamGoelUK/COMP34812-NLU/blob/main/RoBERTa_tuning.ipynb): This is the main development notebook for the RoBERTa model. The preprocessing, hyperparameter selection, and training of the model is carried out in this notebook.
 - [**RoBERTa_DEMO.ipynb**](https://github.com/SakshamGoelUK/COMP34812-NLU/blob/main/RoBERTa_DEMO.ipynb): This is the demo code that can be used to test the model, using csv inputs or individual sentence inputs. It was used to test on the development dataset throughout the development of the model, and was also used to generate the test dataset predictions.
+- [**RoBERTa_Evaluation.ipynb**](https://colab.research.google.com/drive/1rJtzzbu_3TjvLQIqpsIyDutXI_Z1GTMG?usp=sharing): This is the evalation notebook used to calculate evaluation metrics such as Accuracy, Precision, Recall, F1, but I also tried some different metrics that I deemed appropriate. There was a severe class imbalance in the validation dataset so I used the PR-AUC curve, which I had read as being appropriate in such scenarios. I also plotted the confusion matrix and calculated the Matthews Correlation Coefficient, to get an overall idea of how well the model was doing. The results were good and the model performed well across all metrics.
 
 ### Running the Demo Code
 
