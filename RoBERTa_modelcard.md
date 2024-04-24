@@ -43,7 +43,7 @@ This model is based on a RoBERTa model that was fine-tuned on 23,703 pairs of te
 
 <!-- This is a short stub of information on the training data that was used, and documentation related to data pre-processing or additional filtering (if applicable). -->
 
-23,703 claim-evidence pairs as training data, and 5,927 pairs as validation data
+23,703 claim-evidence pairs as training data, and 5,926 pairs as validation data
 
 ### Training Procedure
 
